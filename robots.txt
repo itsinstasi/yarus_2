@@ -1,0 +1,2 @@
+﻿User-agent: *
+Sitemap: http://yarus-2.itsinsta.site/sitemap.xml
