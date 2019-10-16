@@ -28,6 +28,9 @@
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
 
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -59,249 +62,255 @@
 			</div>
 		</header>	
 		<div class="main">
-			<div class="stories" style="display: none;">
+			<div class="stories">
 				<div class="container">
-					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="ярус2">
-								<a href="./yarus2.html">
-									<div class="stories__slide-pic"><img src="../img/og/yarus2.png" alt="ярус2" /></div>
-									<div class="stories__slide-txt">ярус2</div>
-								</a>
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="ярус2">
+										<a href="./yarus2.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/yarus2.png);"></div>
+											<div class="stories__slide-txt">ярус2</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="кровать">
+										<a href="./krovat-.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/krovat-.png);"></div>
+											<div class="stories__slide-txt">кровать</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="кровать чердак">
+										<a href="./krovat--cherdak.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/krovat--cherdak.png);"></div>
+											<div class="stories__slide-txt">кровать чердак</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="второй ярус">
+										<a href="./vtoroy-yarus.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/vtoroy-yarus.png);"></div>
+											<div class="stories__slide-txt">второй ярус</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="лофт">
+										<a href="./loft.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/loft.png);"></div>
+											<div class="stories__slide-txt">лофт</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="второй этаж в комнате">
+										<a href="./vtoroy-etazh-v-komnate.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/vtoroy-etazh-v-komnate.png);"></div>
+											<div class="stories__slide-txt">второй этаж в комнате</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="мебель на заказ">
+										<a href="./mebel--na-zakaz.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/mebel--na-zakaz.png);"></div>
+											<div class="stories__slide-txt">мебель на заказ</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="мебель из массива">
+										<a href="./mebel--iz-massiva.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/mebel--iz-massiva.png);"></div>
+											<div class="stories__slide-txt">мебель из массива</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="loft bed">
+										<a href="./loft-bed.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/loft-bed.png);"></div>
+											<div class="stories__slide-txt">loft bed</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="2 ярус">
+										<a href="./2-yarus.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/2-yarus.png);"></div>
+											<div class="stories__slide-txt">2 ярус</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="второй этаж">
+										<a href="./vtoroy-etazh.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/vtoroy-etazh.png);"></div>
+											<div class="stories__slide-txt">второй этаж</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="чердак кровать">
+										<a href="./cherdak-krovat-.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/cherdak-krovat-.png);"></div>
+											<div class="stories__slide-txt">чердак кровать</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="лестница">
+										<a href="./lestnitsa.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/lestnitsa.png);"></div>
+											<div class="stories__slide-txt">лестница</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="мастерская">
+										<a href="./masterskaya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/masterskaya.png);"></div>
+											<div class="stories__slide-txt">мастерская</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="плотник">
+										<a href="./plotnik.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/plotnik.png);"></div>
+											<div class="stories__slide-txt">плотник</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="спальный этаж">
+										<a href="./spal-nyy-etazh.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/spal-nyy-etazh.png);"></div>
+											<div class="stories__slide-txt">спальный этаж</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="кровать подпотолком">
+										<a href="./krovat--podpotolkom.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/krovat--podpotolkom.png);"></div>
+											<div class="stories__slide-txt">кровать подпотолком</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="идеи вашегодома">
+										<a href="./idei-vashegodoma.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/idei-vashegodoma.png);"></div>
+											<div class="stories__slide-txt">идеи вашегодома</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="кровать чердак спб">
+										<a href="./krovat--cherdak-spb.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/krovat--cherdak-spb.png);"></div>
+											<div class="stories__slide-txt">кровать чердак спб</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн маленькой комнаты">
+										<a href="./dizayn-malen-koy-komnaty.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-malen-koy-komnaty.png);"></div>
+											<div class="stories__slide-txt">дизайн маленькой комнаты</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="антресоль">
+										<a href="./antresol-.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/antresol-.png);"></div>
+											<div class="stories__slide-txt">антресоль</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="детская кровать">
+										<a href="./detskaya-krovat-.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/detskaya-krovat-.png);"></div>
+											<div class="stories__slide-txt">детская кровать</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн спальни">
+										<a href="./dizayn-spal-ni.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-spal-ni.png);"></div>
+											<div class="stories__slide-txt">дизайн спальни</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="двухуровневая квартира">
+										<a href="./dvukhurovnevaya-kvartira.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dvukhurovnevaya-kvartira.png);"></div>
+											<div class="stories__slide-txt">двухуровневая квартира</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="saintpetersburg">
+										<a href="./saintpetersburg.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/saintpetersburg.png);"></div>
+											<div class="stories__slide-txt">saintpetersburg</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="снизувверх">
+										<a href="./snizuvverkh.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/snizuvverkh.png);"></div>
+											<div class="stories__slide-txt">снизувверх</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="сос новый массив">
+										<a href="./sos-novyy-massiv.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/sos-novyy-massiv.png);"></div>
+											<div class="stories__slide-txt">сос новый массив</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="идеи дизайна">
+										<a href="./idei-dizayna.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/idei-dizayna.png);"></div>
+											<div class="stories__slide-txt">идеи дизайна</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="russia">
+										<a href="./russia.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/russia.png);"></div>
+											<div class="stories__slide-txt">russia</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="двухъ ярусная кровать">
+										<a href="./dvukh--yarusnaya-krovat-.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dvukh--yarusnaya-krovat-.png);"></div>
+											<div class="stories__slide-txt">двухъ ярусная кровать</div>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="кровать">
-								<a href="./krovat-.html">
-									<div class="stories__slide-pic"><img src="../img/og/krovat-.png" alt="кровать" /></div>
-									<div class="stories__slide-txt">кровать</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="кровать чердак">
-								<a href="./krovat--cherdak.html">
-									<div class="stories__slide-pic"><img src="../img/og/krovat--cherdak.png" alt="кровать чердак" /></div>
-									<div class="stories__slide-txt">кровать чердак</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="второй ярус">
-								<a href="./vtoroy-yarus.html">
-									<div class="stories__slide-pic"><img src="../img/og/vtoroy-yarus.png" alt="второй ярус" /></div>
-									<div class="stories__slide-txt">второй ярус</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="лофт">
-								<a href="./loft.html">
-									<div class="stories__slide-pic"><img src="../img/og/loft.png" alt="лофт" /></div>
-									<div class="stories__slide-txt">лофт</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="второй этаж в комнате">
-								<a href="./vtoroy-etazh-v-komnate.html">
-									<div class="stories__slide-pic"><img src="../img/og/vtoroy-etazh-v-komnate.png" alt="второй этаж в комнате" /></div>
-									<div class="stories__slide-txt">второй этаж в комнате</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="мебель на заказ">
-								<a href="./mebel--na-zakaz.html">
-									<div class="stories__slide-pic"><img src="../img/og/mebel--na-zakaz.png" alt="мебель на заказ" /></div>
-									<div class="stories__slide-txt">мебель на заказ</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="мебель из массива">
-								<a href="./mebel--iz-massiva.html">
-									<div class="stories__slide-pic"><img src="../img/og/mebel--iz-massiva.png" alt="мебель из массива" /></div>
-									<div class="stories__slide-txt">мебель из массива</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="loft bed">
-								<a href="./loft-bed.html">
-									<div class="stories__slide-pic"><img src="../img/og/loft-bed.png" alt="loft bed" /></div>
-									<div class="stories__slide-txt">loft bed</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="2 ярус">
-								<a href="./2-yarus.html">
-									<div class="stories__slide-pic"><img src="../img/og/2-yarus.png" alt="2 ярус" /></div>
-									<div class="stories__slide-txt">2 ярус</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="второй этаж">
-								<a href="./vtoroy-etazh.html">
-									<div class="stories__slide-pic"><img src="../img/og/vtoroy-etazh.png" alt="второй этаж" /></div>
-									<div class="stories__slide-txt">второй этаж</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="чердак кровать">
-								<a href="./cherdak-krovat-.html">
-									<div class="stories__slide-pic"><img src="../img/og/cherdak-krovat-.png" alt="чердак кровать" /></div>
-									<div class="stories__slide-txt">чердак кровать</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="лестница">
-								<a href="./lestnitsa.html">
-									<div class="stories__slide-pic"><img src="../img/og/lestnitsa.png" alt="лестница" /></div>
-									<div class="stories__slide-txt">лестница</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="мастерская">
-								<a href="./masterskaya.html">
-									<div class="stories__slide-pic"><img src="../img/og/masterskaya.png" alt="мастерская" /></div>
-									<div class="stories__slide-txt">мастерская</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="плотник">
-								<a href="./plotnik.html">
-									<div class="stories__slide-pic"><img src="../img/og/plotnik.png" alt="плотник" /></div>
-									<div class="stories__slide-txt">плотник</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="спальный этаж">
-								<a href="./spal-nyy-etazh.html">
-									<div class="stories__slide-pic"><img src="../img/og/spal-nyy-etazh.png" alt="спальный этаж" /></div>
-									<div class="stories__slide-txt">спальный этаж</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="кровать подпотолком">
-								<a href="./krovat--podpotolkom.html">
-									<div class="stories__slide-pic"><img src="../img/og/krovat--podpotolkom.png" alt="кровать подпотолком" /></div>
-									<div class="stories__slide-txt">кровать подпотолком</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="идеи вашегодома">
-								<a href="./idei-vashegodoma.html">
-									<div class="stories__slide-pic"><img src="../img/og/idei-vashegodoma.png" alt="идеи вашегодома" /></div>
-									<div class="stories__slide-txt">идеи вашегодома</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="кровать чердак спб">
-								<a href="./krovat--cherdak-spb.html">
-									<div class="stories__slide-pic"><img src="../img/og/krovat--cherdak-spb.png" alt="кровать чердак спб" /></div>
-									<div class="stories__slide-txt">кровать чердак спб</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн маленькой комнаты">
-								<a href="./dizayn-malen-koy-komnaty.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-malen-koy-komnaty.png" alt="дизайн маленькой комнаты" /></div>
-									<div class="stories__slide-txt">дизайн маленькой комнаты</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="антресоль">
-								<a href="./antresol-.html">
-									<div class="stories__slide-pic"><img src="../img/og/antresol-.png" alt="антресоль" /></div>
-									<div class="stories__slide-txt">антресоль</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="детская кровать">
-								<a href="./detskaya-krovat-.html">
-									<div class="stories__slide-pic"><img src="../img/og/detskaya-krovat-.png" alt="детская кровать" /></div>
-									<div class="stories__slide-txt">детская кровать</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн спальни">
-								<a href="./dizayn-spal-ni.html">
-									<div class="stories__slide-pic"><img src="../img/og/dizayn-spal-ni.png" alt="дизайн спальни" /></div>
-									<div class="stories__slide-txt">дизайн спальни</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="двухуровневая квартира">
-								<a href="./dvukhurovnevaya-kvartira.html">
-									<div class="stories__slide-pic"><img src="../img/og/dvukhurovnevaya-kvartira.png" alt="двухуровневая квартира" /></div>
-									<div class="stories__slide-txt">двухуровневая квартира</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="saintpetersburg">
-								<a href="./saintpetersburg.html">
-									<div class="stories__slide-pic"><img src="../img/og/saintpetersburg.png" alt="saintpetersburg" /></div>
-									<div class="stories__slide-txt">saintpetersburg</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="снизувверх">
-								<a href="./snizuvverkh.html">
-									<div class="stories__slide-pic"><img src="../img/og/snizuvverkh.png" alt="снизувверх" /></div>
-									<div class="stories__slide-txt">снизувверх</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="сос новый массив">
-								<a href="./sos-novyy-massiv.html">
-									<div class="stories__slide-pic"><img src="../img/og/sos-novyy-massiv.png" alt="сос новый массив" /></div>
-									<div class="stories__slide-txt">сос новый массив</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="идеи дизайна">
-								<a href="./idei-dizayna.html">
-									<div class="stories__slide-pic"><img src="../img/og/idei-dizayna.png" alt="идеи дизайна" /></div>
-									<div class="stories__slide-txt">идеи дизайна</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="russia">
-								<a href="./russia.html">
-									<div class="stories__slide-pic"><img src="../img/og/russia.png" alt="russia" /></div>
-									<div class="stories__slide-txt">russia</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="двухъ ярусная кровать">
-								<a href="./dvukh--yarusnaya-krovat-.html">
-									<div class="stories__slide-pic"><img src="../img/og/dvukh--yarusnaya-krovat-.png" alt="двухъ ярусная кровать" /></div>
-									<div class="stories__slide-txt">двухъ ярусная кровать</div>
-								</a>
-							</div>
-						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 					</div>
 				</div>
 			</div>
@@ -360,7 +369,7 @@
 								</div>
 							</a>
 							<a href="../posts/./vybor-nashikh-klientov.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/e93ac71023ba3e609bfd862c341a0105/5E19D91A/t51.2885-15/e35/69084431_1374138792750274_1788756354555599249_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/181d796f90a30b285f46da4ded2a98fc/5E41661A/t51.2885-15/e35/69084431_1374138792750274_1788756354555599249_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-08-14">14 August 2019</time></div>
@@ -403,7 +412,7 @@
 								</div>
 							</a>
 							<a href="../posts/./otlichnoe-prilozheniex-chtoby-prevrashchat--fotografii-v-komiksy---comica.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/1f3788739a0d9e4934ba2e0369d6e03e/5E394A9A/t51.2885-15/e35/66777151_123797485596311_9183836409401779645_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/f7089b125c1b424d5cfc528b5433024a/5E60D79A/t51.2885-15/e35/66777151_123797485596311_9183836409401779645_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-08-17">17 August 2019</time></div>
@@ -446,7 +455,7 @@
 								</div>
 							</a>
 							<a href="../posts/./g-obraznaya-konstruktsiya--yarus2-standart--so-vstroennym-shkafom-i-lestnitsey-stellazhom.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/57cff5de666b821e03ac858a23efd51a/5E1C320C/t51.2885-15/e35/57114926_402795853890689_3652168256847352800_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/fdc27c49dc7d5bdedc96adad7e446088/5E43BF0C/t51.2885-15/e35/57114926_402795853890689_3652168256847352800_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-04-29">29 April 2019</time></div>
@@ -474,7 +483,7 @@
 								</div>
 							</a>
 							<a href="../posts/./lestnitsa-pryamaya-naklonnaya-na-tetivakh.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6d2d489c897ea59f5f0f59873aecbdc4/5E19A8D9/t51.2885-15/e35/50331162_644942669286138_5230597143214124269_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ff55c7a11c92c48467b4f3f447c09af9/5E4135D9/t51.2885-15/e35/50331162_644942669286138_5230597143214124269_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Saint Petersburg, Russia</div>
@@ -503,7 +512,7 @@
 								</div>
 							</a>
 							<a href="../posts/./pered-novym-godom-sobrali-otlichnuyu-lestnitsu-stellazh.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6ee52c4ec6b9c41839e1e8b358f2de30/5E378216/t51.2885-15/e35/47689734_300027974200925_6828237969495250321_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ab207420ca78e0ee53a2c8668fa33bb0/5E5F0F16/t51.2885-15/e35/47689734_300027974200925_6828237969495250321_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Saint Petersburg, Russia</div>
@@ -561,7 +570,7 @@
 								</div>
 							</a>
 							<a href="../posts/./vtoroy-yarus-s-peredvizhnoy-lestnitsey-dlya-shkol-nika.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/46b3bdb446f07c8f12ce2f4012c5f270/5DA525B8/t51.2885-15/e35/34823354_1848341088802553_4312811480660574208_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8e6568da587c6b873bc1b0ba0e466cb6/5DA87178/t51.2885-15/e35/34823354_1848341088802553_4312811480660574208_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2018-06-22">22 June 2018</time></div>
@@ -575,7 +584,7 @@
 								</div>
 							</a>
 							<a href="../posts/./vtoroy-yarus-v-inter-ere.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/d5595ca7e46680a6588c771be53ae31a/5E3A0B03/t51.2885-15/e35/33308374_208168546662083_5516415433311256576_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/77707f754b02965f9202331c6598cc1b/5E619803/t51.2885-15/e35/33308374_208168546662083_5516415433311256576_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Набережная Фонтанки</div>
@@ -806,7 +815,7 @@
 								</div>
 							</a>
 							<a href="../posts/./otzyv-nashey-zakazchitsy.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/adb652bb77ca09c9c57983b8354a944a/5DA581E0/t51.2885-15/e15/19984212_1839838379667543_4081279685042896896_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/fbb2eb5988037338b8a7bedfec032c1a/5DA8CDA0/t51.2885-15/e15/19984212_1839838379667543_4081279685042896896_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-07-15">15 July 2017</time></div>
@@ -835,7 +844,7 @@
 								</div>
 							</a>
 							<a href="../posts/./konstruktsiya-s-lyukom.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/b598eaac109ed1da2525c54ff2a05678/5DA5A489/t51.2885-15/e15/19535327_563288240726597_7011818798332248064_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a244a06126cddfe69e5741a8082052ac/5DA99909/t51.2885-15/e15/19535327_563288240726597_7011818798332248064_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-07-02">02 July 2017</time></div>
@@ -934,7 +943,7 @@
 								</div>
 							</a>
 							<a href="../posts/./g---obraznaya-konstruktsiya.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/40200f2149c1b2e716e6ea120c3323fb/5DA56A6C/t51.2885-15/e15/19429504_1470827459606903_9116052409129369600_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/3f5613e9f3c5e182402c63123e2e0f77/5DA8B62C/t51.2885-15/e15/19429504_1470827459606903_9116052409129369600_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-06-29">29 June 2017</time></div>
@@ -1004,7 +1013,7 @@
 								</div>
 							</a>
 							<a href="../posts/./uglovaya-konstruktsiya.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/e9e6e0c3aae5b9de2a910c6f5dead75c/5DA52AA1/t51.2885-15/e15/19436700_1902421190025890_473100646338265088_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c407578e700d7378909c4f70eb5a0ae4/5DA87661/t51.2885-15/e15/19436700_1902421190025890_473100646338265088_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-06-28">28 June 2017</time></div>
@@ -1033,7 +1042,7 @@
 								</div>
 							</a>
 							<a href="../posts/./vid-snizu.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/f6e60ef97db2734713568f30e8dc1427/5E1AFE11/t51.2885-15/e35/19429040_142989536265446_4880104178594086912_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/0d2c60e32779f764bfb8f3e2e95ded20/5E428B11/t51.2885-15/e35/19429040_142989536265446_4880104178594086912_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-06-27">27 June 2017</time></div>
@@ -1047,7 +1056,7 @@
 								</div>
 							</a>
 							<a href="../posts/./proverka-vtorogo-yarusa-ot-kompanii--yarus2--na-prochnost-.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/62c54a908c6c2a1cf9b28756db3b5ba9/5DA57569/t51.2885-15/e15/19428855_1939101223034203_4563015260050554880_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/bec2301aa27d14a6be3af0f288338559/5DA8C129/t51.2885-15/e15/19428855_1939101223034203_4563015260050554880_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-06-27">27 June 2017</time></div>
@@ -1103,7 +1112,7 @@
 								</div>
 							</a>
 							<a href="../posts/./proizvodstvennaya-masterskaya--yarus2.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/bfa7873e9bff0a84790ffb1809630696/5E38DA03/t51.2885-15/e35/19429187_153780805167619_9177281222382977024_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/616de8fab37f6520985aeb11d1e85752/5E606703/t51.2885-15/e35/19429187_153780805167619_9177281222382977024_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-06-27">27 June 2017</time></div>
@@ -1131,7 +1140,7 @@
 								</div>
 							</a>
 							<a href="../posts/./prodolzhaem-razgovor-o-tipakh-konstruktsiy-vtorogo-yarusa.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4b49cb9d7580db36f101a5f9cd0ea1de/5DA54DB0/t51.2885-15/e15/19436520_1908791116026554_344824808023785472_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/0f00282818af08afb266401e5b6dbc9d/5DA89970/t51.2885-15/e15/19436520_1908791116026554_344824808023785472_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-06-27">27 June 2017</time></div>
@@ -1145,7 +1154,7 @@
 								</div>
 							</a>
 							<a href="../posts/./pridat--konstruktsii-izyskannosti-pomozhet-okraska-v-neskol-ko-tsvetov.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/3d854ef29c85447a55b279ca9525e850/5E39EDE1/t51.2885-15/e35/19436272_1841974139452449_7495582285098385408_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/88410db5b55d7e6384b0e3e60e77bb2a/5E617AE1/t51.2885-15/e35/19436272_1841974139452449_7495582285098385408_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-06-26">26 June 2017</time></div>
@@ -1201,7 +1210,7 @@
 								</div>
 							</a>
 							<a href="../posts/./hashvtoroyetazh-2.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/5f3b174d92aec953a7961e9457f77f1c/5DA56757/t51.2885-15/e15/19227929_1194569637356279_3115497434600439808_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/d784bc7667a48f4985067795c87ac64e/5DA8B317/t51.2885-15/e15/19227929_1194569637356279_3115497434600439808_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-06-26">26 June 2017</time></div>
@@ -1215,7 +1224,7 @@
 								</div>
 							</a>
 							<a href="../posts/./iz-otzyvax--vot-i-sbylas--mechta-devochki-11-let.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c5f1c387d33e54e2d38291ded2876df3/5E3969FA/t51.2885-15/e35/19425336_450666958633354_2709236211783827456_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/31ae23e7b89aa62c0efb6ba43eaa87bb/5E60F6FA/t51.2885-15/e35/19425336_450666958633354_2709236211783827456_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-06-26">26 June 2017</time></div>
@@ -1243,7 +1252,7 @@
 								</div>
 							</a>
 							<a href="../posts/./krovat--dvukh-yarusnaya--yarus2-krepysh.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8ae268241182581d067bfd8acce39a60/5E38D05E/t51.2885-15/e35/19380090_315860918860857_3435772334114340864_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/7f3eb9448a9ed3589de7d3bdcb44349b/5E605D5E/t51.2885-15/e35/19380090_315860918860857_3435772334114340864_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-06-25">25 June 2017</time></div>
@@ -1257,7 +1266,7 @@
 								</div>
 							</a>
 							<a href="../posts/./vtoroy-yarus-nad-prikhozhey-a-zhk--mistola-khills.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/f0a07d63f6fc3098449fd9d77744d688/5E3A6B03/t51.2885-15/e35/19379894_1816041462058788_2060828890347077632_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/54c8daca8b4ededf593cba91dc5202d7/5E61F803/t51.2885-15/e35/19379894_1816041462058788_2060828890347077632_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-06-25">25 June 2017</time></div>
@@ -1343,7 +1352,7 @@
 								</div>
 							</a>
 							<a href="../posts/./krovat--cherdak-yarus2-v-stalinskom-dome.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8299527820d5d8d1b6c4f56669f29658/5E381300/t51.2885-15/e35/19429006_1500063096724311_6201485656443584512_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/d55fe8f6178a67390b3cf2335aa270be/5E5FA000/t51.2885-15/e35/19429006_1500063096724311_6201485656443584512_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Kalininsky District, Saint Petersburg</div>
@@ -1372,7 +1381,7 @@
 								</div>
 							</a>
 							<a href="../posts/./krovat----cherdak--yarus2-standart-.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/9702814ad04ebe549fa5aa49e00c81cd/5E19DC00/t51.2885-15/e35/19367311_1978088799087149_6191997523930906624_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/1c816f866ab1ad36e4513d89581854da/5E416900/t51.2885-15/e35/19367311_1978088799087149_6191997523930906624_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-06-23">23 June 2017</time></div>
@@ -1472,7 +1481,7 @@
 								</div>
 							</a>
 							<a href="../posts/./konstruktsiya-vtorogo-yarusa-v-komnate-s-zabezhnoy-lestnitsey.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/344c5ae91c8766db1eb8fe6f39656838/5DA57E7C/t51.2885-15/e15/16123919_1362325887172771_3136900768464896000_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/70e88b2ca50ccd701c80d025762b820d/5DA8CA3C/t51.2885-15/e15/16123919_1362325887172771_3136900768464896000_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Белоостров</div>
@@ -1487,7 +1496,7 @@
 								</div>
 							</a>
 							<a href="../posts/./uglovaya-dvukh-yarusnaya--krovat--na-troikh-detey.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/b891801057eb9fefc786b184cef24284/5E1AF3F4/t51.2885-15/e35/16228851_246723529115550_842245350193364992_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/cc0483d0ccc6394816069bdabaf2aa90/5E4280F4/t51.2885-15/e35/16228851_246723529115550_842245350193364992_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-02-03">03 February 2017</time></div>
@@ -1559,7 +1568,7 @@
 								</div>
 							</a>
 							<a href="../posts/./tak-my-prorisovyvaem-proekt-pered-zapuskom-v-proizvodstvo.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/b9d0948f756f6367cdadd7ff53c95268/5E39326D/t51.2885-15/e35/14549979_677778999096150_1944938702627143680_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/9418fa0690c7dfc48cf57a714704aaf7/5E60BF6D/t51.2885-15/e35/14549979_677778999096150_1944938702627143680_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-01-03">03 January 2017</time></div>
@@ -1755,11 +1764,12 @@
 			</div>
 		</div>			
 	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="../js/vendors/jquery.min.js"></script>
-	<script src="../js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="../js/vendors/slick.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
 	<!--init-->
 	<script src="../js/jquery.init.js"></script>
 	<!--my scripts-->
