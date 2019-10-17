@@ -1,2 +1,2 @@
 ﻿User-agent: *
-Sitemap: http://yarus-2.ru/sitemap.xml
+Sitemap: https://yarus-2.ru/sitemap.xml
