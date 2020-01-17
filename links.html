@@ -62,13 +62,13 @@
 				<div class="header__wrap">
 					<div class="header__left">
 						<a href="./" class="header__logo">
-							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-19/s150x150/14027405_183345365404424_1534786707_a.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_ohc=HoyQ3hQvF2IAX8Q1ZIN&oh=1981491761c4f5ceb79f60822215b677&oe=5E9C2C54" alt="2 ЯРУС В КОМН., КРОВАТЬ ЧЕРДАК"></div>
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-19/s150x150/14027405_183345365404424_1534786707_a.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_ohc=6JQQ9u7UoHgAX9wUFYn&oh=66153c26c5d1dec48f1cf590b8e1d79e&oe=5E9C2C54" alt="2 ЯРУС В КОМН., КРОВАТЬ ЧЕРДАК"></div>
 							<div class="header__logo-txt">yarus_2</div>
 						</a>
 						<div class="header__title">2 ЯРУС В КОМН., КРОВАТЬ ЧЕРДАК</div>
 					</div>
 					<div id="settingsContainer" class="header__right" style="display:none">
-						<button onclick="window.open('http://itsinsta.site/page.html?project=yarus_2');" class="btn stories-popup__buy">Настроить</button>
+						<button onclick="window.open('http://itsinsta.site/page.html?project=yarus_2', '_self');" class="btn stories-popup__buy">Настроить</button>
 					</div>
 				</div>
 			</div>
@@ -410,7 +410,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
 $(document).ready(function(){
 	var lid = getUrlParameter("lid");
-	if (lid) {
+	if (lid && lid != "true") {
         localStorage.setItem("hasToken", true);
 
 		$("#settingsContainer").show();
